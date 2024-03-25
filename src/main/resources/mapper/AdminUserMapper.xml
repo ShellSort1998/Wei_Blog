@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.blog.weiblog.dao.AdminUserMapper">
+    <resultMap id="BaseResultMap" type="com.blog.weiblog.entity.AdminUser">
+        <id property="adminUserId" column="admin_user_id"/>
+        <result property="loginUserName" column="login_user_name"/>
+        <result property="loginPassword" column="login_password"/>
+        <result property="nickName" column="nick_name"/>
+        <result property="locked" column="locked"/>
+    </resultMap>
+    <update id="updateByPrimaryKeySelective" parameterType="com.blog.weiblog.entity.AdminUser">
+        update tb_admin_user
+        set login_user_name = #{recode.loginUserName},
+            login_password  = #{recode.loginPassword},
+            nick_name       = #{recode.nickName},
+            locked          = #{recode.locked}
+        where admin_user_id = #{recode.adminUserId};
+    </update>
+    <select id="getUser" resultMap="BaseResultMap">
+        select * from tb_admin_user
+        where login_user_name = #{userName} and login_password = #{userPassword}
+    </select>
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="int">
+        select * from tb_admin_user
+        where admin_user_id = #{loginUserId}
+    </select>
+
+</mapper>

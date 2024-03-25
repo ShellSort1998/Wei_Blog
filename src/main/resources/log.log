@@ -1,0 +1,54 @@
+2024-03-24 21:51:14.464  INFO 13736 --- [main] com.blog.weiblog.WeiBlogApplication      : Starting WeiBlogApplication using Java 1.8.0_341 on Wenxu with PID 13736 (D:\PostgraduateLearning\CAREER_DERICTION\java-dev\Wei-Blog\target\classes started by wwx in D:\PostgraduateLearning\CAREER_DERICTION\java-dev\Wei-Blog)
+2024-03-24 21:51:14.468  INFO 13736 --- [main] com.blog.weiblog.WeiBlogApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-03-24 21:51:15.284  INFO 13736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2024-03-24 21:51:15.293  INFO 13736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-24 21:51:15.293  INFO 13736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-03-24 21:51:15.410  INFO 13736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-24 21:51:15.410  INFO 13736 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 905 ms
+2024-03-24 21:51:16.010  INFO 13736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2024-03-24 21:51:16.014  INFO 13736 --- [main] com.blog.weiblog.WeiBlogApplication      : Started WeiBlogApplication in 1.854 seconds (JVM running for 2.485)
+2024-03-24 21:51:36.226  INFO 13736 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-24 21:51:36.226  INFO 13736 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-24 21:51:36.227  INFO 13736 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-24 21:51:36.265  WARN 13736 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariConfig           : hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2024-03-24 21:51:36.266  INFO 13736 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : hikariCP - Starting...
+2024-03-24 21:51:36.366  INFO 13736 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : hikariCP - Start completed.
+2024-03-24 21:53:05.640  INFO 13736 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : hikariCP - Shutdown initiated...
+2024-03-24 21:53:05.640  INFO 13736 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : hikariCP - Shutdown completed.
+2024-03-24 21:59:20.288  INFO 16464 --- [main] c.blog.weiblog.WeiBlogApplicationTests   : Starting WeiBlogApplicationTests using Java 1.8.0_341 on Wenxu with PID 16464 (started by wwx in D:\PostgraduateLearning\CAREER_DERICTION\java-dev\Wei-Blog)
+2024-03-24 21:59:20.288  INFO 16464 --- [main] c.blog.weiblog.WeiBlogApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-03-24 21:59:21.939  INFO 16464 --- [main] c.blog.weiblog.WeiBlogApplicationTests   : Started WeiBlogApplicationTests in 1.891 seconds (JVM running for 2.673)
+2024-03-24 22:00:25.211  INFO 9420 --- [main] com.blog.weiblog.WeiBlogApplication      : Starting WeiBlogApplication v0.0.1-SNAPSHOT using Java 1.8.0_341 on Wenxu with PID 9420 (D:\PostgraduateLearning\CAREER_DERICTION\java-dev\Wei-Blog\target\Wei-Blog-0.0.1-SNAPSHOT.jar started by wwx in D:\PostgraduateLearning\CAREER_DERICTION\java-dev\Wei-Blog\target)
+2024-03-24 22:00:25.211  INFO 9420 --- [main] com.blog.weiblog.WeiBlogApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-03-24 22:00:26.331  INFO 9420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2024-03-24 22:00:26.347  INFO 9420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-24 22:00:26.347  INFO 9420 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-03-24 22:00:26.463  INFO 9420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-24 22:00:26.463  INFO 9420 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1205 ms
+2024-03-24 22:00:27.162  INFO 9420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2024-03-24 22:00:27.162  INFO 9420 --- [main] com.blog.weiblog.WeiBlogApplication      : Started WeiBlogApplication in 2.293 seconds (JVM running for 2.637)
+2024-03-24 22:00:32.750  INFO 9420 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-24 22:00:32.757  INFO 9420 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-24 22:00:32.757  INFO 9420 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-24 22:00:32.826  WARN 9420 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariConfig           : hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2024-03-24 22:00:32.833  INFO 9420 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : hikariCP - Starting...
+2024-03-24 22:00:33.006  INFO 9420 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : hikariCP - Start completed.
+2024-03-24 22:00:41.462  INFO 9420 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : hikariCP - Shutdown initiated...
+2024-03-24 22:00:41.462  INFO 9420 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : hikariCP - Shutdown completed.
+2024-03-24 22:00:52.419  INFO 18048 --- [main] com.blog.weiblog.WeiBlogApplication      : Starting WeiBlogApplication v0.0.1-SNAPSHOT using Java 1.8.0_341 on Wenxu with PID 18048 (D:\PostgraduateLearning\CAREER_DERICTION\java-dev\Wei-Blog\target\Wei-Blog-0.0.1-SNAPSHOT.jar started by wwx in D:\PostgraduateLearning\CAREER_DERICTION\java-dev\Wei-Blog\target)
+2024-03-24 22:00:52.419  INFO 18048 --- [main] com.blog.weiblog.WeiBlogApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-03-24 22:00:53.549  INFO 18048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2024-03-24 22:00:53.564  INFO 18048 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-24 22:00:53.564  INFO 18048 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-03-24 22:00:53.688  INFO 18048 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-24 22:00:53.688  INFO 18048 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1211 ms
+2024-03-24 22:00:54.499  INFO 18048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2024-03-24 22:00:54.505  INFO 18048 --- [main] com.blog.weiblog.WeiBlogApplication      : Started WeiBlogApplication in 2.481 seconds (JVM running for 2.809)
+2024-03-24 22:00:56.667  INFO 18048 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-24 22:00:56.667  INFO 18048 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-24 22:00:56.667  INFO 18048 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-24 22:00:56.736  WARN 18048 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariConfig           : hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2024-03-24 22:00:56.736  INFO 18048 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : hikariCP - Starting...
+2024-03-24 22:00:56.926  INFO 18048 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : hikariCP - Start completed.
+2024-03-24 22:01:04.977  INFO 18048 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : hikariCP - Shutdown initiated...
+2024-03-24 22:01:04.987  INFO 18048 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : hikariCP - Shutdown completed.
