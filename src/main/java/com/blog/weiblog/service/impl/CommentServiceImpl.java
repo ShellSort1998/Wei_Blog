@@ -32,8 +32,7 @@ public class CommentServiceImpl implements CommentService {
     public PageResult getCommentsPage(PageQueryUtil pageUtil) {
         List<BlogComment> comments = blogCommentMapper.findBlogCommentList(pageUtil);
         int total = blogCommentMapper.getTotalBlogComments(pageUtil);
-        PageResult pageResult = new PageResult(comments, total, pageUtil.getLimit(), pageUtil.getPage());
-        return pageResult;
+        return new PageResult(comments, total, pageUtil.getLimit(), pageUtil.getPage());
     }
 
     @Override

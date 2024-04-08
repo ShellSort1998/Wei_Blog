@@ -1,6 +1,7 @@
 package com.blog.weiblog.controller.blog;
 
 import com.blog.weiblog.controller.vo.BlogDetailVO;
+import com.blog.weiblog.entity.Blog;
 import com.blog.weiblog.entity.BlogComment;
 import com.blog.weiblog.entity.BlogLink;
 import com.blog.weiblog.service.*;
