@@ -10,7 +10,7 @@
         <result property="blogSubUrl" column="blog_sub_url"/>
         <result property="blogCoverImage" column="blog_cover_image"/>
         <result property="blogCategoryId" column="blog_category_id"/>
-        <result property="blogCategoryName" column="blog_category_id"/>
+        <result property="blogCategoryName" column="blog_category_name"/>
         <result property="blogTags" column="blog_tags"/>
         <result property="blogStatus" column="blog_status"/>
         <result property="blogViews" column="blog_views"/>
@@ -242,7 +242,7 @@
     </select>
     <select id="findBlogList" parameterType="Map" resultMap="BaseResultMap">
         select
-        *
+        <include refid="Base_Column_List"/>
         from tb_blog
         where is_deleted=0
         <if test="keyword!=null">

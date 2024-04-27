@@ -10,4 +10,9 @@ class WeiBlogApplicationTests {
     void contextLoads() {
     }
 
+    @Test
+    public void test1(){
+
+    }
+
 }

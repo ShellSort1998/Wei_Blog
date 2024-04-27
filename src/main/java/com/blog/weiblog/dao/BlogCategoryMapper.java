@@ -24,4 +24,6 @@ public interface BlogCategoryMapper {
     int deleteBatch(Integer[] ids);
 
     List<BlogCategory> selectByCategoryIds(@Param("categoryIds") List<Integer> categoryIds);
+
+
 }
